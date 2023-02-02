@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+
+    <form action="">
+    <fieldset>
+        <h1>Registration Form</h1>
+        <hr>
+        <h2>Student Information</h2>
+        <p>Please Fill the details carefully</p>
+        <hr>
+        <p>Name: * <input type="text" name="name" required></p>
+        <p>Department: * 
+            <select name="Dept" id="Department" required>
+                <option value="">---Select From Mentioned---</option>
+                <option value="CSE">Computer Science</option>
+                <option value="IT">Information Technology</option>
+                <option value="ECE">Electronics & Communication</option>
+                <option value="EE">Electrical Engineering</option>
+                <option value="ME">Mechanical Engineering</option>
+                <option value="AEIE">Applied Instrumentation</option>
+
+            </select>
+        </p>
+        <p>Roll NO: * <input type="text" name="Roll" id="RollNo" required></p>
+        <p> 
+            Male <input type="radio" name="gender" id="male" required>
+            Female <input type="radio" name="gender" id="female" required>
+            Other <input type="radio" name="gender" id="other" required>
+       </p>
+        <p>
+        Date Of Birth: * <input type="date" name="DOB" id="DOB" required>
+        </p>
+        <p>Address: <textarea name="address" id="address" cols="200" rows="8"></textarea></p>
+        <p>Pincode: * <input type="number" name="Pincode" id="Pincode" required></p>
+        <p>Email: * <input type="email" name="email" id="email" required></p>
+        <p>Create Password: <input type="password" name="password" id="password"></p>
+        <p>Confirm Password: <input type="password" name="password" id="password"></p>
+        <input type="submit" value="Confirm & Submit">
+        <p>* marked fields are required! </p>
+    </fieldset>
+
+        
+    </form>
+
+
+
+</body>
+</html>
